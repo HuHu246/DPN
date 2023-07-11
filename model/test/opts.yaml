@@ -1,0 +1,17 @@
+DA: false
+batchsize: 24
+block: 2,3
+color_jitter: false
+data_dir: /data/benchmarks/reid/University-Release/train
+freeze: stem
+gpu_ids: '0'
+h: 448
+lr: 0.03
+name: final_three_view_long_share_d0.75_256_s1_google_LPN4_lr0.001
+nclasses: 701
+pad: 12
+pool: avg
+stride: 1
+train_all: false
+w: 448
+warm_epoch: 3

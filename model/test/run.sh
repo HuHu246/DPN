@@ -1,0 +1,2 @@
+nohup python -u train.py --name='final_three_view_long_share_d0.75_256_s1_google_LPN4_lr0.001' --data_dir='/data/benchmarks/reid/University-Release/train' --stride=1 --h=448 --w=448 --block='2,3' --freeze='stem' --batchsize=24 --lr=0.030 --gpu_ids='0' &
+# nohup python -u train.py --name='final_three_view_long_share_d0.75_256_s1_google_LPN4_lr0.001' --data_dir='/mnt/yrfs/yanrong/pvc-80688cb9-3d14-45f4-9be0-f37238d68d83/benchmarks/reid/University-Release/train' --stride=1 --h=448 --w=448 --block='2,3' --freeze='stem' --batchsize=24 --lr=0.015 --gpu_ids='0' &
