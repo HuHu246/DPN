@@ -1,0 +1,2 @@
+python test.py --name='final_three_view_long_share_d0.75_256_s1_google_LPN4_lr0.001' --test_dir='/data/benchmarks/reid/University-Release/test' --batchsize=48 --gpu_ids='0' --h=448 --w=448
+# python test.py --name='final_three_view_long_share_d0.75_256_s1_google_LPN4_lr0.001' --test_dir='/mnt/yrfs/yanrong/pvc-80688cb9-3d14-45f4-9be0-f37238d68d83/benchmarks/reid/University-Release/test' --batchsize=64 --gpu_ids='0' --h=448 --w=448
